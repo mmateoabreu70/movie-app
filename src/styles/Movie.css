@@ -1,0 +1,48 @@
+.Movie {
+    height: 500px;
+    min-width: 270px;
+    max-width: 270px;
+    border: 0.5px solid #adadad;
+    border-radius: 15px;
+    box-shadow: -2px 1px 10px #b1b1b1;
+    cursor: pointer;
+    background-color: white;
+    transition: transform .3s;
+    text-decoration: none;
+}
+
+.Movie:hover {
+    transform: scale(1.03);
+}
+
+.Movie img {
+    height: 75%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.bottom {
+    padding: 8px;
+}
+
+h3 {
+    font-size: 20px;
+    max-lines: 2;
+    color: #000;
+}
+
+span,
+p {
+    font-size: 0.8rem;
+}
+
+.Movie .genre {
+    color: #b1b1b1;
+    font-style: italic;
+}
+
+.director span {
+    font-size: smaller;
+    font-style: italic;
+    font-weight: bold;
+}

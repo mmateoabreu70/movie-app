@@ -1,0 +1,60 @@
+.Search {
+    width: 100%;
+    padding: 15px;
+}
+
+form {
+    width: 100%;
+    height: fit-content;
+}
+
+input,
+select {
+    height: 35px;
+    border: none;
+    padding: 10px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+}
+
+.search-control {
+    width: 38%;
+    display: block;
+    border-radius: 5px;
+    margin: 20px auto;
+    border: 2px solid #008B8B;
+}
+
+.search-control > * {
+    height: max-content;
+}
+
+#category-select {
+    height: inherit;
+    width: 25%;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#search-input {
+    height: inherit;
+    width: 75%;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.Search button[type='submit'] {
+    height: 45px;
+    padding: 15px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    color: #008B8B;
+}
